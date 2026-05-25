@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neighborhood Helpers - Yard Help by Teens</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #f4f7f6; color: #333; }
+    header { background: #2e7d32; color: white; padding: 40px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { margin: 10px 0 0; font-size: 1.2em; font-style: italic; opacity: 0.9; }
+    .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+    .section { background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+    .section h2 { color: #2e7d32; margin-top: 0; border-bottom: 2px solid #e0e0e0; padding-bottom: 8px; }
+    .services-grid { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 15px 0; }
+    .service-item { display: flex; justify-content: space-between; background: #f9f9f9; padding: 12px 15px; border-radius: 5px; border-left: 4px solid #4caf50; }
+    .price { font-weight: bold; color: #c62828; }
+    .pay-box { background: #e8f5e9; padding: 20px; border-radius: 6px; border: 1px solid #c8e6c9; }
+    .btn { display: inline-block; background: #1565c0; color: white; padding: 12px 24px; border-radius: 4px; text-decoration: none; font-weight: bold; margin-top: 15px; }
+    .btn:hover { background: #0d47a1; }
+    .team-photos { display: flex; gap: 15px; justify-content: space-around; margin-top: 15px; flex-wrap: wrap; }
+    .photo-placeholder { background: #e0e0e0; width: 150px; height: 150px; display: flex; align-items: center; text-align: center; justify-content: center; border-radius: 50%; font-size: 0.9em; color: #666; font-style: italic; padding: 10px; box-sizing: border-box; }
+    footer { text-align: center; padding: 20px 0; color: #666; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Neighborhood Helpers</h1>
+    <p>Teen-powered yard help, done right next door.</p>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>What We Do</h2>
+      <p>We are local 15-year-olds who want to help out our community! We are reliable, hard-working, friendly, and always ready to help with yard work and small outdoor chores. Best of all, we keep our prices affordable—<strong>our most expensive service is only $30!</strong></p>
+    </div>
+
+    <div class="section">
+      <h2>Services & Reasonable Prices</h2>
+      <div class="services-grid">
+        <div class="service-item"><span>Mow Lawn (Small Yard)</span><span class="price">$15</span></div>
+        <div class="service-item"><span>Mow Lawn (Medium/Large Yard)</span><span class="price">$25</span></div>
+        <div class="service-item"><span>Rake Leaves (Front Yard)</span><span class="price">$12</span></div>
+        <div class="service-item"><span>Rake Leaves (Full Yard)</span><span class="price">$20</span></div>
+        <div class="service-item"><span>Pick up Sticks & Debris (Front Yard)</span><span class="price">$10</span></div>
+        <div class="service-item"><span>Pick up Sticks & Debris (Back Yard)</span><span class="price">$15</span></div>
+        <div class="service-item"><span>Shovel Driveway (Snow)</span><span class="price">$15</span></div>
+        <div class="service-item"><span>Full Yard Cleanup (Rake + Debris)</span><span class="price">$30</span></div>
+        <div class="service-item"><span>One-time "Help-Around-The-Yard" Chores</span><span class="price">$20</span></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>How to Pay</h2>
+      <div class="pay-box">
+        <p><strong>We accept secure online payments!</strong></p>
+        <p>We also accept <strong>Interac e-Transfer</strong> via TD Canada Trust (or any other Canadian bank).</p>
+        <p>📩 Send e-Transfers to: <strong>your-email@example.com</strong> <br><em>(Please include your home address in the e-Transfer notes!)</em></p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Meet the Team</h2>
+      <p>Here are some of the local teens ready to hustle and get the job done:</p>
+      <div class="team-photos">
+        <div class="photo-placeholder">Mowing lawns</div>
+        <div class="photo-placeholder">Raking leaves</div>
+        <div class="photo-placeholder">Shoveling snow</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Book a Job Today!</h2>
+      <p>Need some help around the house? Contact us with your name, address, and the job you need done.</p>
+      <p><strong>Email:</strong> your-email@example.com</p>
+      <p><strong>Phone / Text:</strong> (XXX) XXX-XXXX</p>
+      <a href="mailto:your-email@example.com" class="btn">Email Us to Book</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Neighborhood Helpers. Proudly serving our neighborhood.
+  </footer>
+
+</body>
+</html>
